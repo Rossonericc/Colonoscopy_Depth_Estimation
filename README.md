@@ -2,15 +2,9 @@
 
 
 ```python
-!git clone https://github.com/nguyenbim/Depth-Estimation-For-Colonoscopy-using-deep-learning-and-self-supervised-learning.git
+!git clone https://github.com/Rossonericc/Colonoscopy_Depth_Estimation.git
 ```
 
-
-
-```python
-%cd Depth-Estimation-For-Colonoscopy-using-deep-learning-and-self-supervised-learning/
-!mkdir checkpoints/colon2depth_512p/
-```
 
 
 # Install library
@@ -24,22 +18,14 @@
 
 # Dowload model
 
-### Nếu lỗi khi bạn chạy trên colab là do section chưa load xong, check đường dẫn folder "/content/CV_Vinbigdata/checkpoints/colon2depth_512p" và chạy lại
-
-
-```python
-!gdown 1-jk4ddBheo1X3t12vKCPBxxubaOUO8S_  -O /content/Depth-Estimation-For-Colonoscopy-using-deep-learning-and-self-supervised-learning/checkpoints/colon2depth_512p/80_net_D.pth
-!gdown 13HXlby3-u9JQilWNnPWUSLnLJsoRNCxH  -O /content/Depth-Estimation-For-Colonoscopy-using-deep-learning-and-self-supervised-learning/checkpoints/colon2depth_512p/80_net_G.pth
-```
-
 
 
 # Run test
 
 
 
-### Data sample in folder "/content/CV_Vinbigdata/data_sample"
-### Predict result in folder "/content/CV_Vinbigdata/data_sample/data_sample"
+### Data sample in folder "/test_data"
+### Predict result in folder "/test_data/test_data"
 
 
 ```python
