@@ -78,13 +78,6 @@ for i in data_test:
 ![png](static/static4.png)
     
 
-
-
-## Acknowledgments
-This project is done by 5-mem group.
-This code borrows from [Self-Supervised-Depth-Estimation-for-Colonoscopy](https://github.com/ckLibra/Self-Supervised-Depth-Estimation-for-Colonoscopy.git).
-
-
 ## REFERENCE
 [1] Cheng, K., Ma, Y., Sun, B., Li, Y., & Chen, X. (2021). Depth Estimation for Colonoscopy Images with Self-supervised Learning from Videos. Medical Image Computing And Computer Assisted Intervention – MICCAI 2021, 119-128. doi: 10.1007/978-3-030-87231-1_12.
 
